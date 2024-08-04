@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C98848E2-314D-469D-B983-9A9DDEFF40EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{36390949-D6CF-4717-A6E3-3BE06BD1B739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxoMicroservices.Services.Catalog.API", "Services\Catalog\AxoMicroservices.Services.Catalog.API\AxoMicroservices.Services.Catalog.API.csproj", "{8F2A07F1-40D2-4551-87D2-5BD79632CAEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{A5C4AF8A-561D-47CC-9056-05B23DD23B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxoMicroservices.BuildingBlocks", "BuildingBlocks\AxoMicroservices.BuildingBlocks\AxoMicroservices.BuildingBlocks.csproj", "{BFA886A9-0568-43F3-8828-37A4C06C3C39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F2A07F1-40D2-4551-87D2-5BD79632CAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2A07F1-40D2-4551-87D2-5BD79632CAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2A07F1-40D2-4551-87D2-5BD79632CAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2A07F1-40D2-4551-87D2-5BD79632CAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA886A9-0568-43F3-8828-37A4C06C3C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA886A9-0568-43F3-8828-37A4C06C3C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA886A9-0568-43F3-8828-37A4C06C3C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA886A9-0568-43F3-8828-37A4C06C3C39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36390949-D6CF-4717-A6E3-3BE06BD1B739} = {C98848E2-314D-469D-B983-9A9DDEFF40EB}
+		{8F2A07F1-40D2-4551-87D2-5BD79632CAEB} = {36390949-D6CF-4717-A6E3-3BE06BD1B739}
+		{BFA886A9-0568-43F3-8828-37A4C06C3C39} = {A5C4AF8A-561D-47CC-9056-05B23DD23B09}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {110CC4C0-9082-4ADE-9424-FA0A358D7A04}
+	EndGlobalSection
+EndGlobal
