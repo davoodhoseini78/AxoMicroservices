@@ -1,6 +1,4 @@
-﻿using AxoMicroservices.BuildingBlocks.CQRS;
-
-namespace AxoMicroservices.Services.Catalog.API.Products.CreateProduct;
+﻿namespace AxoMicroservices.Services.Catalog.API.Products.CreateProduct;
 
 public record CreateProductRequest(string Name, string Description, List<string> Categories, string ImageFile, decimal Price) : ICommand<CreateProductResult>;
 public record CreateProductResponse(Guid Id);

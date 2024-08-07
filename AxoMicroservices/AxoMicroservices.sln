@@ -7,11 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{36390949-D6CF-4717-A6E3-3BE06BD1B739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxoMicroservices.Services.Catalog.API", "Services\Catalog\AxoMicroservices.Services.Catalog.API\AxoMicroservices.Services.Catalog.API.csproj", "{8F2A07F1-40D2-4551-87D2-5BD79632CAEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AxoMicroservices.Services.Catalog.API", "Services\Catalog\AxoMicroservices.Services.Catalog.API\AxoMicroservices.Services.Catalog.API.csproj", "{8F2A07F1-40D2-4551-87D2-5BD79632CAEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{A5C4AF8A-561D-47CC-9056-05B23DD23B09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxoMicroservices.BuildingBlocks", "BuildingBlocks\AxoMicroservices.BuildingBlocks\AxoMicroservices.BuildingBlocks.csproj", "{BFA886A9-0568-43F3-8828-37A4C06C3C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AxoMicroservices.BuildingBlocks", "BuildingBlocks\AxoMicroservices.BuildingBlocks\AxoMicroservices.BuildingBlocks.csproj", "{BFA886A9-0568-43F3-8828-37A4C06C3C39}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8BD9FE76-02AD-4438-ABA3-0E339EF7854E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BFA886A9-0568-43F3-8828-37A4C06C3C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFA886A9-0568-43F3-8828-37A4C06C3C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFA886A9-0568-43F3-8828-37A4C06C3C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD9FE76-02AD-4438-ABA3-0E339EF7854E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD9FE76-02AD-4438-ABA3-0E339EF7854E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD9FE76-02AD-4438-ABA3-0E339EF7854E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD9FE76-02AD-4438-ABA3-0E339EF7854E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
